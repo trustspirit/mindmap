@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Next.js and TypeScript generated files
+.next/
+out/
+build/
+dist/
+next-env.d.ts
+*.tsbuildinfo
+
+# Environment variables and credentials (keep the setup template)
+.env*
+!.env.example
+
+# Deployment and local service state
+.vercel/
+.supabase/
+supabase/.temp/
+supabase/.branches/
+
+# Tests, screenshots, and generated previews
+coverage/
+playwright-report/
+test-results/
+artifacts/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
